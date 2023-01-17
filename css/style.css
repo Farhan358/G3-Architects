@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Base section start */
+body {
+  font-family: "Work Sans", sans-serif;
+  max-width: 100%;
+}
+/* Base section End */
+
+/* utility section */
+
+.header {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background: #ff900e;
+}
+/* utility section end */
+
+/* nav section start */
+
+.header-container {
+  background: rgba(255, 144, 14, 0.1);
+}
+
+.nav-title h2 {
+  color: #131313;
+  font-weight: 700;
+}
+
+.menu-item {
+  color: #424242;
+  list-style: none;
+}
+
+/* nav section end */
+
+/* hero-section starts */
+
+/* hero-section ends */
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  padding-bottom: 50px;
+}
+
+.hero-title {
+  color: #131313;
+  margin: 1em;
+}
+
+.hero-text {
+  color: #727272;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.btn {
+  color: #ffffff;
+  background: #ff900e;
+  font-size: 16px;
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 2em;
+}
+
+/* media query desktop start */
+
+@media screen and (min-width: 992px) {
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+  }
+
+  .menu-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .hero-title h2 {
+    font-size: 45px;
+    text-align: center;
+  }
+
+  .hero-text {
+    font-size: 18px;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+}
+
+/* media query desktop ends */
+
+@media only screen and (max-width: 576px) {
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-title {
+    margin-top: 1em;
+    margin-bottom: 10px;
+  }
+
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .hero-title h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .hero-text {
+    font-size: 14px;
+  }
+
+  .hero-image {
+    width: 100%;
+  }
+}
