@@ -62,6 +62,7 @@ body {
 
 .hero-text {
   color: #727272;
+  font-weight: 400;
   text-align: center;
   margin-bottom: 1em;
 }
